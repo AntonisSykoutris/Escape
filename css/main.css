@@ -190,4 +190,44 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.grid-test {
+  max-width: 114rem;
+  background-color: #eee;
+  margin: 0 auto;
+  display: grid;
+  row-gap: 8rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+  gap: 6rem;
+}
+.row [class^=col-1-of-2] {
+  border: 2px solid red;
+  flex: 0.5;
+}
+.row [class^=col-1-of-3] {
+  border: 2px solid red;
+  flex: 0.33;
+}
+.row [class^=col-2-of-3] {
+  border: 2px solid red;
+  flex: 0.66;
+}
+.row [class^=col-1-of-4] {
+  border: 2px solid red;
+  flex: 0.25;
+}
+.row [class^=col-2-of-4] {
+  border: 2px solid red;
+  flex: 0.5;
+}
+.row [class^=col-3-of-4] {
+  border: 2px solid red;
+  flex: 0.75;
 }/*# sourceMappingURL=main.css.map */
