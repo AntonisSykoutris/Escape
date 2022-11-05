@@ -6,6 +6,7 @@
   margin-bottom: 3.5rem;
   position: relative;
   overflow: hidden;
+  transition: all 0.5s;
 
   &__text {
     margin-bottom: 2rem;
@@ -57,5 +58,9 @@
     color: $color-grey-light-3;
     font-family: sans-serif;
     z-index: 1;
+  }
+
+  &:hover {
+    transform: scale(1.03);
   }
 }

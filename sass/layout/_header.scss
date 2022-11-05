@@ -25,6 +25,8 @@
 
     &:hover,
     &:active {
+      transform: scale(1.2);
+      filter: brightness(0) saturate(100%);
     }
   }
 
