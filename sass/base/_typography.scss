@@ -3,7 +3,7 @@ body {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.7;
-  color: $color-grey-dark;
+  color: $color-grey-dark-1;
   padding: 3rem;
 }
 
@@ -39,6 +39,11 @@ body {
   -webkit-background-clip: text;
   letter-spacing: 0.2rem;
   color: transparent;
+  transition: all 0.4s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .heading-tertiary {
