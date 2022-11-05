@@ -34,7 +34,7 @@
   &__navigation {
     border-top: 1px solid $color-grey-dark-1;
     padding-top: 2rem;
-    display: inline-block;
+    // display: inline-block;
   }
 
   &__list {
@@ -72,6 +72,5 @@
     border-top: 1px solid $color-grey-dark-1;
     padding-top: 2rem;
     width: 80%;
-    float: right;
   }
 }
