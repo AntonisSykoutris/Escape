@@ -128,7 +128,6 @@ body {
   font-size: 1.6rem;
   line-height: 1.7;
   color: #777;
-  padding: 3rem;
 }
 
 .heading-primary {
@@ -146,6 +145,12 @@ body {
   -webkit-animation: moveInLeft 1s ease-in-out;
           animation: moveInLeft 1s ease-in-out;
 }
+@media only screen and (max-width: 37.5em) {
+  .heading-primary--main {
+    letter-spacing: 1rem;
+    font-family: 5rem;
+  }
+}
 .heading-primary--sub {
   display: block;
   font-size: 2rem;
@@ -153,6 +158,11 @@ body {
   letter-spacing: 1.75rem;
   -webkit-animation: moveInRight 1s ease-in-out;
           animation: moveInRight 1s ease-in-out;
+}
+@media only screen and (max-width: 37.5em) {
+  .heading-primary--sub {
+    letter-spacing: 0.5rem;
+  }
 }
 
 .heading-secondary {
@@ -165,6 +175,16 @@ body {
   letter-spacing: 0.2rem;
   color: transparent;
   transition: all 0.4s;
+}
+@media only screen and (max-width: 56.25em) {
+  .heading-secondary {
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .heading-secondary {
+    font-size: 2.5rem;
+  }
 }
 .heading-secondary:hover {
   transform: scale(1.1);
@@ -745,6 +765,15 @@ body {
   align-items: center;
   gap: 6rem;
 }
+@media only screen and (max-width: 56.25em) {
+  .row {
+    margin-right: 0;
+    margin-bottom: 6rem;
+    flex: 1;
+    flex-flow: row wrap;
+    flex-basis: 100%;
+  }
+}
 .row [class^=col-1-of-2] {
   flex: 0.5;
 }
@@ -762,6 +791,15 @@ body {
 }
 .row [class^=col-3-of-4] {
   flex: 0.75;
+}
+@media only screen and (max-width: 56.25em) {
+  .row [class^=col-] {
+    margin-right: 0;
+    margin-bottom: 6rem;
+    flex: 1;
+    flex-flow: row wrap;
+    flex-basis: 100%;
+  }
 }
 
 .header {
