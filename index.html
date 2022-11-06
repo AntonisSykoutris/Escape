@@ -14,32 +14,33 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
     <link rel="stylesheet" href="css/icon-font.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <script defer src="js/script.js"></script>
 
     <title>Esc@pe | A thrilling experiance!</title>
   </head>
   <body>
     <div class="navigation">
-      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+      <input type="checkbox" class="navigation__checkbox" id="navigation-toggle" />
 
-      <label for="navi-toggle" class="navigation__button">
+      <label for="navigation-toggle" class="navigation__button">
         <span class="navigation__icon">&nbsp;</span>
       </label>
 
       <div class="navigation__background">&nbsp;</div>
 
-      <nav class="navigation__nav">
+      <nav class="navigation__nav" id="navigation__nav">
         <ul class="navigation__list">
           <li class="navigation__item">
-            <a href="#" class="navigation__link"><span>01</span>About Esc@pe</a>
+            <a href="#section-about" class="navigation__link"><span>01</span>About Esc@pe</a>
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link"><span>02</span>Your benfits</a>
+            <a href="#section-features" class="navigation__link"><span>02</span>Your benfits</a>
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link"><span>03</span>Popular rooms</a>
+            <a href="#section-rooms" class="navigation__link"><span>03</span>Popular rooms</a>
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link"><span>04</span>Stories</a>
+            <a href="#section-stories" class="navigation__link"><span>04</span>Stories</a>
           </li>
         </ul>
       </nav>
@@ -62,7 +63,7 @@
       </div>
     </header>
     <main>
-      <section class="section-about">
+      <section class="section-about" id="section-about">
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">All for the thrill of the escape</h2>
         </div>
@@ -93,7 +94,7 @@
           </div>
         </div>
       </section>
-      <section class="section-features">
+      <section class="section-features" id="section-features">
         <div class="grid-layout">
           <div class="row">
             <div class="col-1-of-4">
@@ -141,7 +142,7 @@
           </div>
         </div>
       </section>
-      <section class="section-rooms">
+      <section class="section-rooms" id="section-rooms">
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">Meet our rooms</h2>
         </div>
@@ -171,7 +172,7 @@
                       <p class="card__price-only">Only</p>
                       <p class="card__price-value">25€</p>
                     </div>
-                    <a href="#popup" class="btn btn--white">Book now!</a>
+                    <a href="#popup" class="btn btn--white modal">Book now!</a>
                   </div>
                 </div>
               </div>
@@ -200,7 +201,7 @@
                       <p class="card__price-only">Only</p>
                       <p class="card__price-value">20€</p>
                     </div>
-                    <a href="#popup" class="btn btn--white">Book now!</a>
+                    <a href="#popup" class="btn btn--white modal">Book now!</a>
                   </div>
                 </div>
               </div>
@@ -229,7 +230,7 @@
                       <p class="card__price-only">Only</p>
                       <p class="card__price-value">18€</p>
                     </div>
-                    <a href="#popup" class="btn btn--white">Book now!</a>
+                    <a href="#popup" class="btn btn--white modal">Book now!</a>
                   </div>
                 </div>
               </div>
@@ -240,7 +241,7 @@
           </div>
         </div>
       </section>
-      <section class="section-stories">
+      <section class="section-stories" id="section-stories">
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">We make people genuinely happy</h2>
         </div>
@@ -348,24 +349,18 @@
       <div class="popup__content">
         <div class="popup__left">
           <img src="img/popup/popup-1.jpg" alt="Room photo" class="popup__img" />
-          <img src="img/popup/popup-2.jpg" alt="Room photo" class="popup__img" />
         </div>
         <div class="popup__right">
-          <a href="#section-rooms" class="popup__close">&times;</a>
+          <a href="#" class="popup__close">&times;</a>
           <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
           <h3 class="heading-tertiary u-margin-bottom-small">
             Important &ndash; Please read these terms before booking
           </h3>
           <p class="popup__text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Sed sed risus pretium quam. Aliquam sem et tortor consequat id. Volutpat odio facilisis
-            mauris sit amet massa vitae. Mi bibendum neque egestas congue. Placerat orci nulla pellentesque dignissim
-            enim sit. Vitae semper quis lectus nulla at volutpat diam ut venenatis. Malesuada pellentesque elit eget
-            gravida cum sociis natoque penatibus et. Proin fermentum leo vel orci porta non pulvinar neque laoreet.
-            Gravida neque convallis a cras semper. Molestie at elementum eu facilisis sed odio morbi quis. Faucibus
-            vitae aliquet nec ullamcorper sit amet risus nullam eget. Nam libero justo laoreet sit. Amet massa vitae
-            tortor condimentum lacinia quis vel eros donec. Sit amet facilisis magna etiam. Imperdiet sed euismod nisi
-            porta.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, culpa nobis! Ad odit iure reiciendis
+            optio ipsa impedit. Harum, culpa. Qui aliquam beatae nemo odio eos officia dolorum autem error. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. A natus adipisci at cumque! Delectus repudiandae voluptatum
+            minima a veniam aliquam aut, nostrum omnis in hic possimus doloremque, molestiae, perferendis quia?
           </p>
           <a href="#" class="btn btn--green">Book now</a>
         </div>
