@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
     <link rel="stylesheet" href="css/icon-font.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script defer src="js/script.js"></script>
 
     <title>Roomi | A thrilling experiance!</title>
@@ -321,25 +323,67 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="grid-layout">
-        <div class="row">
-          <div class="col-1-of-2">
-            <div class="footer__navigation">
-              <ul class="footer_list">
-                <li class="footer__item"><a href="#" class="footer__link">COMPANY</a></li>
-                <li class="footer__item"><a href="#" class="footer__link">Contact us</a></li>
-                <li class="footer__item"><a href="#" class="footer__link">Privacy policy</a></li>
-                <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
-              </ul>
+      <div
+        class="footer__container u-horizontal-padding-small u-no-max-width u-margin-bottom-none u-vertical-padding-small"
+      >
+        <div class="footer__quicklinks">
+          <h3>Quick Links</h3>
+          <ul>
+            <li>
+              <a href="#" onclick="return false;">Contact Us</a>
+            </li>
+            <li>
+              <a href="#" onclick="return false;">Terms & Privacy</a>
+            </li>
+            <li>
+              <a href="#" onclick="return false;">Help Center</a>
+            </li>
+            <li>
+              <a href="#" onclick="return false;">FAQ</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__logo-box">
+          <a href="#">
+            <img src="img/logos/Roomi.png" alt="Roomi full logo" class="footer__logo" />
+          </a>
+        </div>
+        <div class="footer__sitemap">
+          <h3>Sitemap</h3>
+          <ul>
+            <li>
+              <a href="#section-about">About Roomi</a>
+            </li>
+            <li>
+              <a href="#section-features">Your Benefits</a>
+            </li>
+            <li>
+              <a href="#section-rooms">Popular Rooms</a>
+            </li>
+            <li>
+              <a href="#section-stories">Stories</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container u-horizontal-padding-small u-no-max-width u-margin-bottom-none u-vertical-padding-small">
+        <div class="footer__box">
+          <div class="footer__box__left">
+            <p class="footer__copyright">Copyright &copy; 2022 by Roomi. All rights reserved.</p>
+          </div>
+          <div class="footer__box__right">
+            <div class="footer__box__right__iconbox">
+              <a href="#" target="_blank" class="footer__box__right__iconbox__link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+              <a href="#" target="_blank" class="footer__box__right__iconbox__link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+              <a href="#" target="_blank" class="footer__box__right__iconbox__link">
+                <ion-icon name="logo-codepen"></ion-icon>
+              </a>
             </div>
-          </div>
-          <div class="footer__logo-box">
-            <a href="#" class="footer__logo-link">
-              <img src="img/logos/Roomi.png" alt="logo" class="footer__logo" />
-            </a>
-          </div>
-          <div class="col-1-of-2 test">
-            <p class="footer__copyright">Copyright © 2022 by Antonis Sykoutris Inc. All rights reserved.</p>
           </div>
         </div>
       </div>
