@@ -26,7 +26,8 @@
     &:hover,
     &:active {
       transform: scale(1.2);
-      filter: brightness(0) saturate(100%);
+      filter: brightness(0) saturate(100%) invert(44%) sepia(17%) saturate(3781%) hue-rotate(302deg) brightness(73%)
+        contrast(73%);
     }
   }
 

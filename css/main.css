@@ -556,6 +556,7 @@ body {
 }
 .story:hover {
   transform: scale(1.03);
+  box-shadow: 0.2rem 0.3rem 0.5rem 0 2rem 5rem rgba(0, 0, 0, 0.06);
 }
 
 .footer {
@@ -672,7 +673,7 @@ body {
 }
 .header__logo-link:hover, .header__logo-link:active {
   transform: scale(1.2);
-  filter: brightness(0) saturate(100%);
+  filter: brightness(0) saturate(100%) invert(44%) sepia(17%) saturate(3781%) hue-rotate(302deg) brightness(73%) contrast(73%);
 }
 .header__logo {
   height: 9rem;
