@@ -2,6 +2,10 @@
   background-color: $color-grey-light-1;
   padding: 25rem 0;
   margin-top: -20vh;
+
+  @include respond(tab-port) {
+    padding: 20rem 0;
+  }
 }
 
 .section-features {
@@ -12,14 +16,32 @@
   -webkit-clip-path: polygon(0 25%, 100% 0%, 100% 100%, 0% 100%);
   clip-path: polygon(0 25%, 100% 0%, 100% 100%, 0% 100%);
   margin-top: -17.5rem;
+
+  @include respond(tab-port) {
+    padding: 10rem 0;
+    clip-path: polygon(0 7%, 100% 0%, 100% 92%, 0% 100%);
+  }
+
+  @include respond(phone) {
+    padding: 10rem 0;
+    clip-path: polygon(0 5%, 100% 0%, 100% 92%, 0% 100%);
+  }
 }
 
 .section-rooms {
   background-color: $color-grey-light-1;
   padding: 25rem 0 15rem 0;
   margin-top: -17.5rem;
+
+  @include respond(tab-port) {
+    padding: 20rem 0 10rem 0;
+  }
 }
 
 .section-stories {
   padding: 15rem 0;
+
+  @include respond(tab-port) {
+    padding: 10rem 0;
+  }
 }

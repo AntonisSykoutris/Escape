@@ -5,6 +5,15 @@
   transform: translate(-50%, -50%);
 }
 
+@mixin wrapFlexItems {
+  @include respond(tab-port) {
+    margin-right: 0;
+    margin-bottom: $gutter-vertical-small;
+    flex: 1;
+    flex-flow: row wrap;
+    flex-basis: 100%;
+  }
+}
 // MEDIA QUERY MANAGER
 /*
 0 - 600px:      Phone
