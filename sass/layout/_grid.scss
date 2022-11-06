@@ -12,7 +12,6 @@
   gap: $gutter-horizontal;
 
   [class^='col-1-of-2'] {
-    // border: 2px solid red;
     flex: 0.5;
   }
 
@@ -21,22 +20,18 @@
   }
 
   [class^='col-2-of-3'] {
-    border: 2px solid red;
     flex: 0.66;
   }
 
   [class^='col-1-of-4'] {
-    // border: 2px solid red;
     flex: 0.25;
   }
 
   [class^='col-2-of-4'] {
-    border: 2px solid red;
     flex: 0.5;
   }
 
   [class^='col-3-of-4'] {
-    border: 2px solid red;
     flex: 0.75;
   }
 }

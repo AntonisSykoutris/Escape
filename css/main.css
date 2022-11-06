@@ -182,8 +182,8 @@ body {
 }
 
 .u-vertical-padding-small {
-  padding-top: 2rem !important;
-  padding-bottom: 2rem !important;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .u-no-max-width {
@@ -717,18 +717,15 @@ body {
   flex: 0.33;
 }
 .row [class^=col-2-of-3] {
-  border: 2px solid red;
   flex: 0.66;
 }
 .row [class^=col-1-of-4] {
   flex: 0.25;
 }
 .row [class^=col-2-of-4] {
-  border: 2px solid red;
   flex: 0.5;
 }
 .row [class^=col-3-of-4] {
-  border: 2px solid red;
   flex: 0.75;
 }
 
