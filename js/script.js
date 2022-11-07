@@ -18,7 +18,7 @@ allLinks.forEach(function (link) {
       menu.checked = false;
     }
 
-    if (link.classList.contains('popup__close')) {
+    if (link.classList.contains('popup__close') || link.classList.contains('popup__close--outer')) {
       e.preventDefault();
       popup.style.opacity = '0';
       popup.style.visibility = 'hidden';
