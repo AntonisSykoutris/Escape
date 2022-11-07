@@ -2,7 +2,7 @@
 
 https://sykou3s-roomi.netlify.app/
 
-I have created an Escape Room landing page to showcase my skills and projects. To achieve this, I implemented the following - 
+I have created an Escape Room company landing page to showcase my skills and projects. To achieve this, I implemented the following - 
 
 ## Semantic HTML
 I used sematic HTML because it makes the HTML more comprehensible by better defining the different sections and layout of web pages. It makes web pages more informative and adaptable, allowing browsers and search engines to better interpret content.
