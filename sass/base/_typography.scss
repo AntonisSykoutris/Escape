@@ -21,7 +21,7 @@ body {
 
     @include respond(phone) {
       letter-spacing: 1rem;
-      font-family: 5rem;
+      font-size: 5rem;
     }
   }
 
@@ -55,7 +55,7 @@ body {
   }
 
   @include respond(phone) {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
 
   &:hover {

@@ -24,6 +24,12 @@
   }
 }
 
+.u-margin-left-s {
+  @include respond(phone) {
+    margin-left: 1rem;
+  }
+}
+
 .u-margin-top-big {
   margin-top: 8rem !important;
 }
