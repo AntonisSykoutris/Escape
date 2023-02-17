@@ -21,7 +21,7 @@ body {
 
     @include respond(small-phone) {
       letter-spacing: 1rem;
-      font-size: 4.8rem;
+      font-size: 4.8rem !important;
     }
 
     @include respond(phone) {

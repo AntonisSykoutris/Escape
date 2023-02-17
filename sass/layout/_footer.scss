@@ -27,10 +27,6 @@
       font-weight: 700;
       margin-bottom: 1.6rem;
 
-      @include respond(small-phone) {
-        font-size: 2rem;
-      }
-
       @include respond(phone) {
         font-size: 2.1rem;
       }
@@ -73,10 +69,6 @@
       font-weight: 700;
       text-align: right;
       margin-bottom: 1.6rem;
-
-      @include respond(small-phone) {
-        font-size: 2rem;
-      }
 
       @include respond(phone) {
         font-size: 2.1rem;
